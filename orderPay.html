@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小U商城--订单支付</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/orderPay.css">
+</head>
+<body>
+    <div class="box">
+        <div class="con">
+            <!-- 头部 -->
+            <div class="top">
+                <div class="top-left">
+                    <a href="#" class="border_0">欢迎来小U商城</a>
+                    <a href="#">请登录</a>
+                    <a href="#" class="border_0">免费注册</a>
+                </div>
+                <div class="top-right">
+                    <a href="#">我的订单</a>
+                    <a href="#">移动APP</a>
+                    <a href="#">网站地图</a>
+                    <a href="#" class="border_0">退出</a>
+                </div>
+            </div>
+         <!--购物车主题部分  -->
+            <div class="carNav">
+                <div class="carNavLeft fl">
+                    <img src="./images/home.jpg" alt="logo" class="fl navImg">
+                    <div class="navLogo fl">结算页</div>
+                </div>
+                <div class="carNavRight fr">
+                    <div class="shopFir fl">
+                        <div class="icons"><div class="navNum">1</div></div>
+                        <span>我的购物车</span>
+                    </div>
+                    <div class="shopSen fl">
+                        <div class="icons"><div class="navNum">2</div></div>
+                        <span>提交订单</span>
+                    </div>
+                    <div class="shopth fl">
+                        <div class="iconf"><div class="navNum">3</div></div>
+                        <span>订单提交成功</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 购物清单 -->
+            <h3>填写并核对订单信息</h3>
+            <div class="carBorder">
+                <div class="order">
+                    <table class="table-top">
+                        <tr class="trBloder" id="bloder">
+                            <td colspan="3">收货地址</td>
+                            <td>新增收货地址</td>
+                        </tr>
+                        <tr class="tdBg">
+                            <td><button>李攀攀</button></td>
+                            <td>
+                                北京市海淀区学清路23号汉华世纪大厦B座中公教育   185****8303
+                                <a href="#" class="address">默认地址</a> 
+                            </td>
+                            <td></td>
+                            <td>
+                                <a href="#">编辑</a>
+                                <a href="#">删除</a>
+                            </td>
+                        </tr>
+                        <tr class="tdBg">
+                            <td><button>王林</button></td>
+                            <td>
+                                北京市海淀区学清路23号汉华世纪大厦B座   185****8303   </td>
+                            <td>
+                                <a href="#" class="fontColor">设为默认地址</a>
+                            </td>
+                            <td>
+                                <a href="#">编辑</a>
+                                <a href="#">删除</a>
+                            </td>
+                        </tr>
+                        <tr class="tdBg_btn">
+                            <td><button>李小二</button></td>
+                            <td>
+                                北京 海淀区 三环到四环之间 中关村北大街四通桥数码大厦21层   185****8303                         </td>
+                            <td></td>
+                            <td>
+                                <a href="#">编辑</a>
+                                <a href="#">删除</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--  -->
+                <!-- 发票信息 -->
+                <div class="fapaio">
+                        <p class="fapiao-tit">发票信息</p>
+                        <label for="head" class="fapiao-head word">
+                            发票抬头：
+                        </label>
+                        <input type="text" name="" id="head" class="word">
+                        <p class="fapiao-desc word">订单出库后不可修改，请确认无误！</p>
+                    </div>
+                    <!-- 物流信息   -->
+                    <div class="wuliu">
+                        <ul>
+                            <li class="wuliu-tit">物流信息</li>
+                            <li class="wuliu-con">
+                                <button class="btn" >圆通</button>
+                                <span>
+                                    ￥10.00
+                                </span>
+                                <span>
+                                    禁发地区：北京、青海、西藏、新疆
+                                </span>
+                            </li>
+                            <li class="wuliu-con">
+                                <button class="btn">申通</button>
+                                <span>
+                                    ￥10.00
+                                </span>
+                                <span>
+                                    禁发地区：北京、青海、西藏、新疆
+                                </span>
+                            </li>
+                            <li class="wuliu-con">
+                                <button class="btn">汇通</button>
+                                <span>
+                                    ￥10.00
+                                </span>
+                                <span>
+                                    禁发地区：北京、青海、西藏、新疆
+                                </span>
+                            </li>
+                            <li class="wuliu-con">
+                                <button class="btn">顺丰</button>
+                                <span>
+                                    ￥10.00
+                                </span>
+                                <span>
+                                    顺丰快递如果拒收退回，快递会收取发出和退回的两个快递费和20元服务费，请慎重选择顺丰不要拒收，否则会扣除相应费用
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 卖家留言 -->
+                    <div class="message">
+                        <p class="ppp">买家留言</p>
+                        <label for="content">留言内容：</label>
+                        <textarea name="text" id="" cols="30" rows="10" maxlength="200" style='resize:none;'></textarea>
+                        <i>0/200</i>
+                    </div>
+                    <!-- 商品清单 -->
+                    <div class="shopList">
+                        <p class="ppp">商品清单</p>
+                        <table class="table-list">
+                            <tr class="table-list-tr">
+                                <td>商品</td>
+                                <td>单价</td>
+                                <td>购买数量</td>
+                                <td>小计</td>
+                            </tr>
+                            <tr class="listTr trList">
+                                <td class="shop">
+                                    <div class="shoptd fl">
+                                        <img src="./images/u-6购物车_07.jpg" alt="" class="fl">
+                                        <div class="shopword">
+                                            <a href="#">
+                                                Apple iPhone 6 Plus (A1524) 64GB 深空灰色 移动联通 电信4G手机
+                                            </a>
+                                            <p>
+                                                <span>颜色：红    型号：V1</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="shop-list-center">
+                                    <span class="price">￥59:00</span> 
+                                </td>
+                                <td class="total shop-list-center">1</td>
+                                <td class="shop-list-center"> <span class="sum">5900.00</span></td>
+                            </tr>
+                            <tr class="listTr trList">
+                                <td class="shop">
+                                    <div class="shoptd fl">
+                                        <img src="./images/u-6购物车_07.jpg" alt="" class="fl">
+                                        <div class="shopword">
+                                            <a href="#">
+                                                Apple iPhone 6 Plus (A1524) 64GB 深空灰色 移动联通 电信4G手机
+                                            </a>
+                                            <p>
+                                                <span>颜色：红    型号：V1</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="shop-list-center">
+                                    <span class="price">￥59:00</span> 
+                                </td>
+                                <td class="total shop-list-center">1</td>
+                                <td class="shop-list-center"> <span class="sum">5900.00</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- 提交订单 -->
+                    <div class="subOrder">
+                        <div class="subOrder-bottom">
+                            <p>商品总金额：￥123.45</p>
+                            <p>运费：￥00.00</p>
+                            <p>优惠：- ￥50.00</p>
+                            <p>应付总金额：<span>￥5199.00</span></p>
+                            <p><a href="#"><button>提交订单</button></a></p>
+                        </div>
+                    </div>
+            </div>
+        <!--  -->
+        </div>
+        <!--  底部-->
+        <div class="footer" id="5F">
+            <div class="wp">
+                <div class="footerList fl">
+                    <ul class="fl first">
+                        <li class="listTit">购物指南</li>
+                        <li class="listLi">购物流程</li>
+                        <li class="listLi">支付方式</li>
+                        <li class="listLi">配送方式</li>
+                    </ul>
+                    <ul class="fl">
+                        <li class="listTit">售货服务</li>
+                        <li class="listLi">售后政策</li>
+                        <li class="listLi">价格保护</li>
+                        <li class="listLi">退款说明</li>
+                        <li class="listLi">返修/退换货</li>
+                        <li class="listLi">取消订单</li>
+                    </ul>
+                    <ul class="fl">
+                        <li class="listTit">配送方式</li>
+                        <li class="listLi">上门自提</li>
+                        <li class="listLi">211限时达</li>
+                        <li class="listLi">配送服务查询</li>
+                        <li class="listLi">配送费收取标准</li>
+                        <li class="listLi">海外配送</li>
+                    </ul>
+                    <ul class="fl">
+                        <li class="listTit">支付方式</li>
+                        <li class="listLi">网上支付</li>
+                        <li class="listLi">支付宝支付</li>
+                        <li class="listLi">邮局汇款</li>
+                    </ul>
+                    <ul class="fl">
+                        <li class="listTit">用户帮助</li>
+                        <li class="listLi">免费注册</li>
+                        <li class="listLi">找回密码</li>
+                        <li class="listLi">常见问题</li>
+                        <li class="listLi">优惠券使用</li>
+                    </ul>
+                </div>
+                <div style="clear:both;"></div>
+                
+            </div>
+            <div class="footerBottom">
+                <p class="bottomP">
+                    Copyright © 2010-2016 小U商城 版权所有 保留一切权利
+                </p>
+                <p>
+                    京ICP备10218183号 京ICP证161188号 京公网安备 11010802020593号 出版物经营许可证新出发京批字第直130052号
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
