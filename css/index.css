@@ -1,0 +1,618 @@
+/* U商城首页 */
+.box{
+    width: 100%;
+    height: 100%;
+    /* background: #9a9a9a; */
+}
+.con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* 头部 */
+.top{
+    width: 100%;
+    height: 37px;
+    /* background: #ccc; */
+    font-size: 12px;
+    line-height: 37px;
+}
+.top a{
+    color: #9a9a9a; 
+    /* margin-right: 12px; */
+    border-right: 1px #9a9a9a solid;
+    padding:0 6px 0;
+}
+.top .top-left{
+    float: left;
+    width: 220px;
+    height: 37px;  
+    /* background: lightblue; */
+}
+.top .top-right{
+    float: right;
+    width: 270px;
+    height: 37px;  
+    /* background: darkcyan; */
+}
+.top a:hover{
+    color: #f26b0f;
+}
+.top .border_0{
+    border: 0;
+    margin: 0;
+}
+/* 搜索 */
+/* -- 后面补充 */
+ #sreach-form{
+     width: 483px;
+     height: 36px;
+     border: 2px #f26b11 solid;
+     background: url(../images/home-sreach.png) no-repeat;
+ }
+ #srecchinp{
+
+ }
+ #srecchbtn{
+     color: red;
+ }
+/* -- */
+.sreach{
+    width: 100%;
+    height: 100px;
+}
+.sreach-left{
+    width: 870px;
+    height: 100px;
+    float: left;
+    background-image: url('../images/home.png');
+    background-repeat: no-repeat;
+}
+.sreach-left .logo img{
+    width: 210px;
+    height: 100px;;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.sreach-inp{
+    width: 483px;
+    height: 36px;
+    border: 2px red solid;
+    background: url(./images/home-sreach.png) no-repeat;
+    margin: 32px 0 0 160px;
+}
+#text{
+    margin-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    width: 368px;
+    border: 0;
+    outline: none;
+}
+#sub{
+    border: 0;
+    width: 80px;
+    height: 36px;
+    color: white;
+    background: #f26b0f;
+    font-size: 20px;
+}
+/* car */
+.sreach-right{
+    width: 130px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+.sreach-right .car{
+    width: 120px;
+    height: 40px;
+    border: 1px #ccc solid;
+    line-height: 40px;
+    margin: 33px 0 0;
+}
+.sreach-right .car img{
+    vertical-align: middle;
+    margin-left: 20px;  
+}
+.sreach-right .car span{
+    margin-left: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.sreach-right .carNum{
+     color: white;
+     width: 23px;
+     height: 23px;
+     background: red;
+     border-radius: 23px;
+     font-size: 10px;
+     position: absolute;
+     top:20px;
+     right: 16px;
+    text-align: center;
+    line-height: 23px;
+}
+/* 导航 */
+.nav{
+    /* height: 44px; */
+    /* background: darkorchid; */
+    /* border: 1px red solid; */
+}
+.nav li{
+    list-style: none;
+    float: left;
+    line-height: 44px;
+    margin-right: 40px;
+    height: 44px;
+}
+.nav-list{
+    height: 44px;
+    color: #333333;
+    font-weight: bolder;
+}
+.nav-list:hover{
+    color:#e74904;
+}
+.nav-tit{
+    height: 44px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 50px;
+}
+.nav-head{
+    height: 44px;
+    width: 209px;
+    background: #e74804;
+}
+/* 轮播图 */
+.centerPic{
+    width: 100%;
+    height: 450px;
+    /* background: url(../images/u-1首页titl.jpg); */
+    background: url(../images/u-1首页.jpg) -700px 0;
+}
+    /* U商城首页 */
+.box{
+    width: 100%;
+    height: 100%;
+    /* background: #9a9a9a; */
+}
+.con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* 头部 */
+.top{
+    width: 100%;
+    height: 37px;
+    /* background: #ccc; */
+    font-size: 12px;
+    line-height: 37px;
+}
+.top a{
+    color: #9a9a9a; 
+    /* margin-right: 12px; */
+    border-right: 1px #9a9a9a solid;
+    padding:0 6px 0;
+}
+.top .top-left{
+    float: left;
+    width: 220px;
+    height: 37px;  
+    /* background: lightblue; */
+}
+.top .top-right{
+    float: right;
+    width: 270px;
+    height: 37px;  
+    /* background: darkcyan; */
+}
+.top a:hover{
+    color: #f26b0f;
+}
+.top .border_0{
+    border: 0;
+    margin: 0;
+}
+/* 搜索 */
+ 
+.sreach{
+    width: 100%;
+    height: 100px;
+}
+.sreach-left{
+    width: 870px;
+    height: 100px;
+    float: left;
+    background-image: url('../images/home.png');
+    background-repeat: no-repeat;
+}
+.sreach-left .logo img{
+    width: 210px;
+    height: 100px;;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.sreach-inp{
+    width: 483px;
+    height: 36px;
+    border: 2px red solid;
+    background: url(./images/home-sreach.png) no-repeat;
+    margin: 32px 0 0 160px;
+}
+#text{
+    margin-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    width: 368px;
+    border: 0;
+    outline: none;
+}
+#sub{
+    border: 0;
+    width: 80px;
+    height: 36px;
+    color: white;
+    background: #f26b0f;
+    font-size: 20px;
+}
+/* car */
+.sreach-right{
+    width: 130px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+.sreach-right .car{
+    width: 120px;
+    height: 40px;
+    border: 1px #ccc solid;
+    line-height: 40px;
+    margin: 33px 0 0;
+}
+.sreach-right .car img{
+    vertical-align: middle;
+    margin-left: 20px;  
+}
+.sreach-right .car span{
+    margin-left: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.sreach-right .carNum{
+     color: white;
+     width: 23px;
+     height: 23px;
+     background: red;
+     border-radius: 23px;
+     font-size: 10px;
+     position: absolute;
+     top:20px;
+     right: 16px;
+    text-align: center;
+    line-height: 23px;
+}
+/* 导航 */
+.nav li{
+    list-style: none;
+    float: left;
+    line-height: 44px;
+    margin-right: 40px;
+    height: 44px;
+}
+.nav-list{
+    height: 44px;
+    color: #333333;
+    font-weight: bolder;
+}
+.nav-list:hover{
+    color:#e74904;
+}
+.nav-tit{
+    height: 44px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 50px;
+}
+.nav-head{
+    height: 44px;
+    width: 209px;
+    background: #e74804;
+}
+/* 轮播图 */
+.centerPic{
+    width: 100%;
+    height: 450px;
+    /* background: url(../images/u-1首页.jpg); */
+    background: url(../images/u-1首页_03.jpg) no-repeat  -224px 0px;
+    overflow: hidden;
+}
+
+/* center nav */
+.centerNav{
+    height: 72px;
+    width: 100%;
+    line-height: 72px;
+    float: left;
+}
+.centerLeft{
+    font-size: 28px;
+    color: #898989;
+}
+.centerRight{
+    /* margin-left: 30px; */
+    font-size: 16px;
+}
+.centerRight a{
+    color: #959595;
+    margin-left: 30px;
+ }
+.centerRight a:hover{
+    color: #e74804;
+}
+/* 内容列表 */
+.conLeft{
+    width: 210px;
+    height: 484px;
+    /* background: url(../images/u-1首页_08.jpg); */
+    background: url(./images/u-1首页_08.jpg);
+}
+.conLeft2{
+    width: 210px;
+    height: 484px;
+    /* background: url(../images/u-1首页_08.jpg); */
+    background: url(./images/u-1首页_11.jpg);
+}
+.conRight{
+    width: 990px;
+    height: 484px;
+    /* border: 1px blue solid; */
+}
+.conList{
+    width: 194px;
+    height: 240px;
+    border: 1px #efefef solid;
+}
+.conList img{
+    width: 130px;
+    height: 130px;
+    margin: 20px 30px 20px 30px;
+}
+.conList p{
+    font-size: 14px;
+    color: #666666;
+    margin-left: 16px;
+    line-height: 20px;
+}
+.conList span{
+    color: #f26b11;
+    font-size: 16px;
+}
+.ad{
+    width: 100%;
+    height: 120px;
+    color: white;
+    /* border: 1px red solid; */
+    margin-top: 30px;
+    background: url(../images/u-1首页_footer_bg.jpg) repeat-x;
+}
+.ad .footLe{
+    margin-top: 6px;
+}
+.ad div{
+    margin-left:20px;
+}
+.footerText {
+    margin: 20px 80px 0px 0px;
+}
+.footerText p{
+    margin-top: 15px;
+} 
+/* 底部导航 */
+.footer{
+    width: 100%;
+    height: 342px;
+    background: #333333;
+    margin-top: 25px;
+}
+.wp{
+    color: #888888;
+    width: 100%;
+    height: 342px;
+    margin: 0 auto;
+}
+.footerList{
+    height: 240px;
+    width: 900px;
+    /* border-bottom: 1px #969191 solid; */
+}
+.footerList ul{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 34px;
+    
+}
+.footerList .listLi{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.listTit{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footerList .first{
+    margin-left: 50px;
+}
+.footerBottom{
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+.bottomP{
+    margin-top: 20px;
+}
+.footerBottom p{
+    margin-bottom: 16px;
+}
+
+.centerNav{
+    height: 72px;
+    width: 100%;
+    line-height: 72px;
+    float: left;
+}
+.centerLeft{
+    font-size: 28px;
+    color: #898989;
+}
+.centerRight{
+    /* margin-left: 30px; */
+    font-size: 16px;
+}
+.centerRight a{
+    color: #959595;
+    margin-left: 30px;
+ }
+.centerRight a:hover{
+    color: #e74804;
+}
+/* 内容列表 */
+.conLeft{
+    width: 210px;
+    height: 484px;
+    background: url(./images/u-1首页_08.jpg);
+}
+.conLeft2{
+    width: 210px;
+    height: 484px;
+    background: url(./images/u-1首页_11.jpg);
+}
+.conRight{
+    width: 990px;
+    height: 484px;
+}
+.conList{
+    width: 194px;
+    height: 240px;
+    border: 1px #efefef solid;
+}
+.conList img{
+    width: 130px;
+    height: 130px;
+    margin: 20px 30px 20px 30px;
+}
+.conList p{
+    font-size: 14px;
+    color: #666666;
+    margin-left: 16px;
+    line-height: 20px;
+}
+.conList span{
+    color: #f26b11;
+    font-size: 16px;
+}
+.ad{
+    width: 100%;
+    height: 120px;
+    color: white;
+    margin-top: 30px;
+    background: url(../images/u-1首页_footer_bg.jpg) repeat-x;
+}
+.ad .footLe{
+    margin-top: 6px;
+}
+.ad div{
+    margin-left:20px;
+}
+.footerText {
+    margin: 20px 80px 0px 0px;
+}
+.footerText p{
+    margin-top: 15px;
+} 
+/* 底部导航 */
+.footer{
+    width: 100%;
+    height: 342px;
+    background: #333333;
+    margin-top: 25px;
+}
+.wp{
+    color: #888888;
+    width: 100%;
+    height: 342px;
+}
+.footerList{
+    height: 240px;
+    width: 900px;
+    margin: 0 auto;
+}
+.footerList ul{
+    list-style: none;
+    /* margin-left: 100px; */
+    margin-top: 34px;
+}
+.footerList .listLi{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.listTit{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footerList .first{
+    margin-left: 30px;
+}
+.footerBottom{
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+.bottomP{
+    margin-top: 20px;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background: #3f3f3f;
+}
+.footerBottom p{
+    margin-bottom: 16px;
+}
+.listLi:hover{
+    color: #e74804;
+    cursor: pointer;
+}
+/* 定位导航部分 */
+.leftFixed{
+    width: 50px;
+    height: 180px;
+    /* border: 1px red solid; */
+    position: fixed;
+    top:300px;
+    left: 24px;
+    text-align: center;
+}
+.leftFixed li{
+    width: 30px;
+    margin-bottom: 22px;
+    list-style: none;
+}
+.leftFixed li a{
+    color: #acacac;
+    padding-left: 20px;
+}
+.leftFixed li a:hover{
+    color: #e74904;
+    border-left: 3px black solid;
+}

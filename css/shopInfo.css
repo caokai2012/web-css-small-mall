@@ -1,0 +1,615 @@
+/* 商品详情页面 */
+.box {
+    width: 100%;
+    height: 100%;
+    /* background: #9a9a9a; */
+}
+
+.con {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 头部 */
+.top {
+    width: 100%;
+    height: 37px;
+    /* background: #ccc; */
+    font-size: 12px;
+    line-height: 37px;
+}
+
+.top a {
+    color: #9a9a9a;
+    /* margin-right: 12px; */
+    border-right: 1px #9a9a9a solid;
+    padding: 0 6px 0;
+}
+
+.top .top-left {
+    float: left;
+    width: 220px;
+    height: 37px;
+    /* background: lightblue; */
+}
+
+.top .top-right {
+    float: right;
+    width: 270px;
+    height: 37px;
+    /* background: darkcyan; */
+}
+
+.top a:hover {
+    color: #f26b0f;
+}
+
+.top .border_0 {
+    border: 0;
+    margin: 0;
+}
+
+/* 搜索 */
+/* -- 后面补充 */
+#sreach-form {
+    width: 483px;
+    height: 36px;
+    border: 2px #f26b11 solid;
+    background: url(../images/home-sreach.png) no-repeat;
+}
+
+#srecchbtn {
+    color: red;
+}
+/* -- */
+
+.sreach {
+    width: 100%;
+    height: 100px;
+}
+
+.sreach-left {
+    width: 870px;
+    height: 100px;
+    float: left;
+    background-image: url('../images/home.png');
+    background-repeat: no-repeat;
+}
+
+.sreach-left .logo img {
+    width: 210px;
+    height: 100px;
+    ;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.sreach-inp {
+    width: 483px;
+    height: 36px;
+    border: 2px red solid;
+    background: url(./images/home-sreach.png) no-repeat;
+    margin: 32px 0 0 160px;
+}
+
+#text {
+    margin-left: 35px;
+    height: 25px;
+    line-height: 25px;
+    width: 368px;
+    border: 0;
+    outline: none;
+}
+
+#sub {
+    border: 0;
+    width: 80px;
+    height: 36px;
+    color: white;
+    background: #f26b0f;
+    font-size: 20px;
+}
+
+/* car */
+.sreach-right {
+    width: 130px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+
+.sreach-right .car {
+    width: 120px;
+    height: 40px;
+    border: 1px #ccc solid;
+    line-height: 40px;
+    margin: 33px 0 0;
+}
+
+.sreach-right .car img {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.sreach-right .car span {
+    margin-left: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.sreach-right .carNum {
+    color: white;
+    width: 23px;
+    height: 23px;
+    background: red;
+    border-radius: 23px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    text-align: center;
+    line-height: 23px;
+}
+
+
+/* 导航 */
+
+.nav li {
+    list-style: none;
+    float: left;
+    line-height: 44px;
+    margin-right: 40px;
+    height: 44px;
+}
+
+.nav-list {
+    height: 44px;
+    color: #333333;
+    font-weight: bolder;
+}
+
+.nav-list:hover {
+    color: #e74904;
+}
+
+.nav-tit {
+    height: 44px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 50px;
+}
+
+.nav-head {
+    height: 44px;
+    width: 209px;
+    background: #e74804;
+}
+
+
+/* 商品列表分类 */
+
+.bor_hr {
+    width: 100%;
+    border-bottom: 2px #e74904 solid;
+}
+
+.centerList {
+    width: 100%;
+    height: 48px;
+}
+
+/* 商品列表分类-checktitle */
+
+.typelist {
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    font-family: '宋体 Regular';
+    color: #666666;
+}
+
+.typelist .tit {
+    margin-right: 12px;
+    text-align: left;
+    font-family: '微软雅黑 ';
+    color: #666666;
+}
+/* 商品信息展示 */
+.shop-info{
+    width: 100%;
+    height: 510px;
+    overflow: hidden;
+}
+.shop-info-left{
+    width: 422px;
+    float: left;
+}
+.shop-info-right{
+    width: 778px;
+    float: left;
+}
+.shop-info .btn-icon{
+    width: 20px;
+    height: 68px;
+}
+.shop-info-small{
+    margin-top: 10px;
+}
+.info-left-btn{
+    background: url(../images/u-5详情-商品介绍_03-btn1.png) no-repeat;
+    margin-right: 10px;
+}
+.shop-info-left .shop-info-small img{
+    width: 66px;
+    height: 66px;
+    margin-right: 2px;
+}
+.info-right-btn{
+    background: url(../images/u-5详情-商品介绍_05-btn2.png) no-repeat;
+}
+/* 介绍信息 */
+.shop-info-right-tit{
+    width: 666px;
+    height: 125px;
+}
+.shop-info-right-tit .info-title{
+    font-family: '微软雅黑','Regular';
+    font-size: 16px;
+    height: 30px;
+    line-height: 24px;
+}
+.shop-info-right-tit .info-desc{
+    font-family: '微软雅黑','Regular';
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.info-more{
+    text-decoration: underline;
+    color: #e74904;
+    margin-left: 20px;
+}
+/*  */
+.info-money{
+    overflow: hidden;
+    margin-left: 20px;
+}
+.info-price{
+    height: 130px;
+    background: url(../images/u-5详情-商品介绍_03-bg.jpg);
+    
+}
+.info-price-left{
+    padding-top: 25px;
+}
+.price-title{
+    font-size: 12px;
+    color: #858585;
+    line-height: 30px;
+    width: 50px;
+    margin-right: 20px;
+}
+.price-num{
+    font-size: 30px;
+    color: #f36b11;
+    font-family: 'Arial';
+    margin-left: -5px;
+}
+/* 收藏 */
+.save{
+    width: 80px;
+    height:30px;
+    padding-left: 20px;
+    background: url(../images/u-5详情-商品介绍_09-save1.png) no-repeat 0px 3px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.save-check{
+    position: relative;
+    top: 10px;
+    right: -100px;
+}
+
+.tongzhi{
+    width: 66px;
+    height: 22px;
+    display: block;
+    background: url(../images/u-5详情-商品介绍-降价_06.jpg) no-repeat center center;
+    font-size: 12px;
+    color: #fff;
+    font-family: '宋体';
+    text-align: center;
+    line-height: 22px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.price-comment{
+    font-size: 12px;
+    color: #e74804;
+    line-height: 30px;
+    text-decoration: underline;
+}
+.baoyou{
+    font-size: 12px;
+    color: #333333;
+    line-height: 30px;
+}
+ 
+.buy-info-btn button{
+    border: 1px #ccc solid;
+    background: #fff;
+    color: #b7b7b7;
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    min-width: 30px;
+    margin-right: 5px;
+}
+.buy-mar img{
+    margin-right: 10px;
+}
+.shop-checked{
+    border: 1px #e74804 solid;
+}
+.buy-info-add input{
+    width: 30px;
+    height: 30px;
+    border: 1px #ccc solid;
+    background: #fff;
+    outline: none;
+    font-size: 18px;
+    color: #b7b7b7;
+}
+.buy-info-add .add-btn{
+    height: 26px;
+}
+.buy-info-bootom button{
+    width: 188px;
+    height: 45px;
+    font-family: '微软雅黑';
+    font-size: 18px;
+    border: 0;
+}
+.buy-info-success{
+    width: 300px;
+    height: 60px;
+    padding: 0 20px;
+    background: #7f7f7f;
+    line-height: 60px;
+    position: absolute;
+    top: 580px;
+    left:500px;
+    display: none;
+}
+.buy-info-success span{
+    text-align: center;
+    color: #e4e4e4;
+    background: url(../images/shopinfo-add-true.jpg) no-repeat left center;
+    padding-left: 30px;
+}
+.buy-info-success button{
+    background: #e74804;
+    border: 0;
+    color: #e4e4e4;
+    height: 30px;
+    width: 80px;
+}
+.buy-info-bootom .add-car{
+    color: #fff;
+    background: url(../images/u-4列表页_11.jpg) no-repeat 15px center #f36b11;
+}
+.buy-info-bootom .buy-now{
+    background: #fef9f6;
+    color: #f36b11;
+    border: 1px #f36b11 solid;
+}
+.buy-info .info-money{
+    margin-top: 15px;
+}
+.info-money.buy-info-bootom{
+    margin-left: 90px;
+    margin-top: 35px;
+}
+/* 介绍商品信息 */
+.shop-introduce{
+    width: 100%;
+    height: 2880px;
+    /* background: #ccc; */
+}
+.introduce-left{
+    width: 210px;
+    height: 1120px;
+    border-top: 2px #e74804 solid;
+    border: 1px #ccc solid;
+}
+.introduce-tit{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #f36b11;
+    font-family: '微软雅黑';
+    font-weight: bolder;
+}
+.show-left-list{
+    height: 200px;
+    width: 155px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.show-left-list img{
+    width: 134px;
+    height: 132px;
+    margin: 0 auto;
+}
+.show-left-list p{
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.money{
+    color: #f36b11;
+    font-size: 14px;
+    margin-left: -5px;
+}
+/* 右侧 商品介绍 */
+.introduce-right{
+    width: 985px;
+    height: 2870px;
+}
+.introduce-right-top{
+    height: 250px;
+    width: 100%;
+}
+.introduce-right-top li{
+    list-style: none;
+    min-width: 50px;
+    height: 20px;
+    border: 1px #ccc solid;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    padding: 10px 30px 10px 30px;
+}
+.introduce-right-top ul .ul-title{
+    border: 0;
+    border-top: 2px #e74804 solid;
+}
+.introduce-right-top li span{
+    color: #e74804;
+}
+.end{
+    width: 518px;
+    height: 40px;
+}
+/* 产品参数 */
+.shop-canshu {
+    width: 750px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.shop-canshu h3{
+    color: #666666;
+    font-family: '宋体';
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.shop-canshu p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.shop-canshu div{
+    min-width: 110px;
+    margin-right: 82px;
+}
+/*固定  */
+.introduce-right-con{
+    width: 982px;
+    height: 2500px;
+    /* border:1px green solid; */
+}
+.introduce-right-con-img{
+    width: 800px;
+    height: 2500px;
+}
+.introduce-right-con-fixed{
+    height: 1180px;
+    width: 160px;
+    background:#f6f6f6 url(../images/u-5详情-商品介绍-bg_14.jpg) no-repeat 30px 60px;
+    padding-top: 30px;
+    border: 1px #ccc solid;
+}
+.introduce-right-con-fixed .fixed{
+    margin-left: 28px;
+    margin-top: 18px;
+    padding-left: 30px;
+}
+.fixed-active{
+    width: 70px;
+    height: 22px;
+    background: url(../images/椭圆9-right-2.jpg) no-repeat left center;
+}
+.fixed-off{
+    width: 70px;
+    height: 22px;
+    background: url(../images/椭圆9副本_right-1.jpg) no-repeat left center;
+}
+.fixed-color{
+    color: #e74804;
+}
+.fixed a:hover{
+    color: #e74804;
+}
+/* 底部导航 */
+.footer {
+    width: 100%;
+    height: 342px;
+    background: #333333;
+    margin-top: 25px;
+    color: #888888;
+}
+.wp {
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+.footerList {
+    height: 240px;
+    width: 900px;
+}
+.footerList ul {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 34px;
+}
+.footerList ul:nth-child(1){
+    margin-left: 0;
+}
+.footerList .listLi {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.listLi:hover{
+    color: #e74904;
+}
+.listTit {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footerList .first {
+    margin-left: 50px;
+}
+
+.footerBottom {
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    border-top: 1px #3f3f3f solid;
+}
+
+.bottomP {
+    margin-top: 20px;
+}
+
+.footerBottom p {
+    margin-bottom: 16px;
+}
+
+.listLi:hover {
+    color: #e74804;
+    cursor: pointer;
+}
+
+

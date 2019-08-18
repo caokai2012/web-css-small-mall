@@ -1,0 +1,156 @@
+/* 登录页面样式 */
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+.login{
+    width: 100%;
+    margin: 0 auto
+}
+.top{
+    height: 108px;
+    line-height: 108px;
+    font-size: 24px;
+    color: #666666;
+    margin-left: -250px;
+}
+.top div{
+    margin-left: 300px;
+}
+.center{
+    background: url(../images/u-3登录_bg.jpg) center center;
+    width: 100%;
+    height: 450px;
+    margin-top: 26px;
+}
+.center .right{
+    width: 350px;
+    height: 380px;
+    border: 1px red solid;
+    float: right;
+    margin-right: 100px;
+    margin-top: 38px;
+    background: white;
+}
+.center .right content{
+    margin: 10px 0 20px 0px;
+    border: 1px blue solid;
+}
+.title{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #7a7a7a;
+}
+.content .inp{
+    height: 38px;
+    width: 280px;
+    margin: 15px 0px 15px 20px;
+    line-height: 38px;
+    border-collapse: collapse;
+    outline: none;
+    position: relative;
+
+}  
+.content .inp img{
+    width: 18px;
+    height: 12px;
+    margin-right: -5px;
+    padding: 14px 9px 14px;
+    border: 1px #ccc solid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.noBorderLeft{
+    height: 36px;
+    padding-left: 40px;
+    /* border: 2px #ccc solid; */
+}
+.content .inp input{
+    height: 36px;
+    width: 240px;
+}
+
+.content .inp .checkCode{
+    width: 208px;
+    border: 1px #ccc solid;
+    outline: none;
+}
+.content .button input{
+    width: 280px;
+    color: white;
+    background: #f36b11;
+    border: 0;
+}
+.code span{
+    color: #2040a0;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 36px;
+    font-size: 18px;
+}
+.content .bottom{
+    font-size: 12px;
+    margin: 0 20px 30px;
+}
+.content button input{
+    border: 0 !important;
+    margin: 0;
+    padding: 0;
+}
+.content .bottom a{
+    float: right;
+    margin-right: 30px;
+
+}
+.content form .link{
+    border-top: 1px #ccc solid;
+    margin-left: 30px;
+    width: 280px;
+}
+li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 10px;
+}
+li a{
+    color: #666666;
+}
+li span{
+    margin-right: 5px;
+}
+.liRight a{
+    margin-left: 40px;
+    color: #f36b11;
+}
+.qq{
+    color: #1ba7eb;
+    font-size: 15px;
+}
+.weibo{
+    color: #e52425;
+    font-size: 15px;
+}
+.weixin{
+    color: #26d044;
+    font-size: 15px;
+}
+.link li a:hover{
+    color: #f36b11;
+}
+/*  */
+.footer{
+    margin:40px auto;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+.footer p{
+    margin-bottom: 16px;
+}

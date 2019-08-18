@@ -1,0 +1,410 @@
+/* 订单支付 */
+
+.box{
+    width: 100%;
+    height: 100%;
+    /* background: #9a9a9a; */
+}
+.con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* 头部 */
+.top{
+    width: 100%;
+    height: 37px;
+    /* background: #ccc; */
+    font-size: 12px;
+    line-height: 37px;
+}
+.top a{
+    color: #9a9a9a; 
+    /* margin-right: 12px; */
+    border-right: 1px #9a9a9a solid;
+    padding:0 6px 0;
+}
+.top .top-left{
+    float: left;
+    width: 220px;
+    height: 37px;  
+    /* background: lightblue; */
+}
+.top .top-right{
+    float: right;
+    width: 270px;
+    height: 37px;  
+    /* background: darkcyan; */
+}
+.top a:hover{
+    color: #f26b0f;
+}
+.top .border_0{
+    border: 0;
+    margin: 0;
+}
+.bor_0{
+    border:0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.fontColor{
+    color: #f26b0f;
+}
+
+/* 购物车主题部分 */
+.carNav{
+    width: 100%;
+    height: 124px;
+    overflow: hidden;
+}
+.navImg{
+    margin-top: 15px;
+}
+.navLogo{
+    font-size: 24px;
+    color: #666666;
+    height: 124px;
+    margin-left: 45px;
+    line-height: 124px;
+}
+/* 流程 */
+.carNavRight{
+    width: 470px;
+    height: 120px;
+    /* border: 1px red solid; */
+    line-height: 120px;
+    text-align: center;
+}
+.carNavRight span{
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 30px ;
+}
+.shopFir{
+    width: 156px;
+    background: url(../images/矩形34副本6.jpg) no-repeat center 60px;
+    opacity: 0.4;
+    position: relative;
+}
+.shopSen{
+    width: 156px;
+    background: url(../images/矩形34副本6.jpg) no-repeat center 60px;
+    position: relative;
+}
+.shopth{
+    width: 156px;
+    background: url(../images/u-6购物车_03_nav.jpg) no-repeat center 60px;
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 48px;
+    left: 65px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/椭圆9副本.png) no-repeat center center;
+}
+.iconf{
+    position: absolute;
+    top: 48px;
+    left: 65px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/椭圆9副本2.jpg) no-repeat center center;
+}
+.navNum{
+    color: white;
+    width: 23px;
+    height: 23px;
+    margin-top: -50px;
+}
+ /* 支付信息 */
+ .order{
+     width: 100%;
+     height: 210px;
+     /* background: #ccc; */
+ }
+ .carBorder{
+    border:1px #ccc solid;
+    padding:30px;
+ }
+ .table-top{
+    height: 220px;
+    width: 100%;
+    font-size: 14px;
+    font-style: '宋体';
+    margin-top: -30px;
+ }
+ .trBloder td {
+     vertical-align: bottom;
+     font-weight: bolder;
+ }
+ .table-tr{
+     height: 40px;;
+     border-bottom: 1px #ccc solid;
+ }
+ h3{
+     font-size: 18px;
+     width: 190px;
+     color: #f26b0f;
+     text-align: center;
+     border-bottom: 3px #f26b0f solid;
+     padding-bottom: 15px;
+     margin-bottom: -4px;
+ }
+ .table-top button{
+     width: 124px;
+     height: 30px;
+     background: #fff;
+     color: #666666;
+     border: 1px #ccc solid;
+     font-size: 12px;
+ }
+ .tdBg{
+     background: #fcf7f4;
+    border-top: 12px #fff solid;
+ }
+ .tdBg_btn{
+    border-top: 12px #fff solid;
+ }
+ .address{
+     margin-left: 40px;
+ }
+
+/* 发票信息 */
+.fapaio{
+    /* width: 100%; */
+    height: 160px;
+    /* background: red; */
+    margin-top: 30px;
+    border-top: 2px #ccc solid;
+}
+.fapaio p{
+    margin-top: 10px;
+}
+.fapiao-tit{
+    font-size: 14px;
+    font-weight: bolder;
+    height: 65px;
+    line-height: 65px;
+}
+.word{
+    font-size: 12px;
+    color: #666666;
+}
+.fapaio input{
+    width: 407px;
+    height: 30px;
+    border: 1px #ccc solid;
+    outline: none;
+}
+.fapaio .fapiao-head{
+    padding-left: 10px;
+}
+.fapiao-desc{
+    padding-left: 70px;
+}
+/* 物流信息 */
+.wuliu{
+    height: 230px;
+    border-top: 2px #ccc solid;
+    /* background: greenyellow; */
+}
+.wuliu li{
+    list-style: none;
+    margin-top: 10px;
+}
+.wuliu .wuliu-tit{
+    font-size: 14px;
+    height: 25px;  
+    line-height: 25px;  
+    color: #333333;
+    font-weight: bolder;
+}
+.btn{
+    width: 125px;
+    height: 30px;
+    background: #fff;
+    font-size: 12px;
+    color: #666666;
+    border: 1px #ccc solid;
+    /* outline: none; */
+}
+.wuliu-con span{
+    color: #666666;
+    margin-left: 20px;
+}
+/* 卖家留言 */
+.message{
+    height: 230px;
+    border-top: 2px #ccc solid;
+    position: relative;
+}
+.ppp{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #333333;
+    height: 60px;
+    line-height: 60px;
+}
+.message label{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 100px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+.message textarea{
+    width: 400px;
+    height: 100px;
+    margin-left: 70px;
+    border:1px #ccc solid;
+}
+.message i{
+    font-size: 12px;
+    color: #666666;
+    margin-left: 10px;
+}
+/* 商品清单 */
+.shopList{
+    height: 345px;
+    border-top: 2px #ccc solid;
+}
+.table-list{
+    height: 280px;
+    width: 100%;
+}
+.table-list td{
+    min-width: 160px;
+}
+.shoptd,.shop{
+    width: 400px;
+    /* border: 1px red solid; */
+}
+.shoptd img{
+    margin:0 20px 0 50px;
+}
+.shop .shopword a{
+    height: 20px;
+    line-height: 20px;
+}
+.shop .shopword p{
+    height: 20px;
+    color: #666666;
+    margin-top: 15px;
+}
+
+.table-list-tr{
+    height: 40px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    border-bottom: 2px #f26b0f solid;
+}
+.sum{
+    color: #f26b0f;
+}
+.shop-list-center{
+    text-align: center;
+    height: 112px;
+    font-size: 14px;
+}
+.shopword{
+    font-size: 12px;
+}
+.listTr{
+    background: #fef9f6;
+}
+/* 提交订单 */
+.subOrder{
+    /* height: 540px; */
+    height: 300px;
+    margin-top: 25px;
+    border-top: 2px #ccc solid;
+    position: relative;
+}
+.subOrder-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding:0 30px 20px 0;
+}
+.subOrder-bottom p{
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+    margin-top: 6px;
+}
+.subOrder-bottom button{
+    width: 185px;
+    height: 50px;
+    background: #f26b0f;
+    color: #fff;
+    border: 0;
+    margin-top:10px;
+    font-size: 18px;
+}
+
+/* 底部导航 */
+.footer{
+    width: 100%;
+    height: 342px;
+    background: #333333;
+    margin-top: 25px;
+    color: #888888;
+}
+.wp{
+    
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+.footerList{
+    height: 240px;
+    width: 900px;
+}
+
+.footerList ul{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 34px;
+}
+.footerList ul:nth-child(1){
+    margin-left: 0;
+}
+.listLi:hover{
+    color: #f26b0f;
+}
+.footerList .listLi{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.listTit{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footerList .first{
+    margin-left: 50px;
+}
+.footerBottom{
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    border-top: 1px #3f3f3f solid;
+
+}
+.bottomP{
+    margin-top: 20px;
+}
+.footerBottom p{
+    margin-bottom: 16px;
+}
+
+ 

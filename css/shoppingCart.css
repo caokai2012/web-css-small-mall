@@ -1,0 +1,292 @@
+/* 购物车 */
+
+.box{
+    width: 100%;
+    height: 100%;
+    /* background: #9a9a9a; */
+}
+.con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* 头部 */
+.top{
+    width: 100%;
+    height: 37px;
+    /* background: #ccc; */
+    font-size: 12px;
+    line-height: 37px;
+}
+.top a{
+    color: #9a9a9a; 
+    /* margin-right: 12px; */
+    border-right: 1px #9a9a9a solid;
+    padding:0 6px 0;
+}
+.top .top-left{
+    float: left;
+    width: 220px;
+    height: 37px;  
+    /* background: lightblue; */
+}
+.top .top-right{
+    float: right;
+    width: 270px;
+    height: 37px;  
+    /* background: darkcyan; */
+}
+.top a:hover{
+    color: #f26b0f;
+}
+.top .border_0{
+    border: 0;
+    margin: 0;
+}
+#bor_0{
+    border:0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 购物车主题部分 */
+.carNav{
+    width: 100%;
+    height: 124px;
+    overflow: hidden;
+}
+.navImg{
+    margin-top: 15px;
+}
+.navLogo{
+    font-size: 24px;
+    color: #666666;
+    height: 124px;
+    margin-left: 45px;
+    line-height: 124px;
+}
+/* 流程 */
+.carNavRight{
+    width: 470px;
+    height: 120px;
+    /* border: 1px red solid; */
+    line-height: 120px;
+    text-align: center;
+}
+.carNavRight span{
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 30px ;
+}
+.shopFir{
+    width: 156px;
+    background: url(../images/矩形34副本6.jpg) no-repeat center 60px;
+    opacity: 0.4;
+    position: relative;
+}
+.shopSen{
+    width: 156px;
+    background: url(../images/矩形34副本6.jpg) no-repeat center 60px;
+    position: relative;
+}
+.shopth{
+    width: 156px;
+    background: url(../images/u-6购物车_03_nav.jpg) no-repeat center 60px;
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 48px;
+    left: 65px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/椭圆9副本.png) no-repeat center center;
+}
+.iconf{
+    position: absolute;
+    top: 48px;
+    left: 65px;
+    width: 23px;
+    height: 23px;
+    background: url(../images/椭圆9副本2.jpg) no-repeat center center;
+}
+.navNum{
+    color: white;
+    width: 23px;
+    height: 23px;
+    margin-top: -50px;
+}
+ /* 购物列表 */
+.shopList,table{
+    width: 100%;
+    height: 700px;
+    /* border: 1px #ccc solid; */
+}
+tr{
+    border-top: 1px #ccc solid;
+    text-align: center;
+}
+.listTh{
+    height: 42px;
+    font-size: 12px;
+    background: #f5f5f5;
+    border: 1px #ccc solid;
+    color: #666666;
+}
+.inp{
+    width: 58px;
+}
+.listTr{
+    height: 110px;
+}
+.shop{
+    width: 375px;
+    height: 67px;
+
+}
+.shopword{
+    color: red;
+    margin-left: 74px;
+    text-align: left;
+}
+.shopword a{
+    line-height: 20px;
+}
+.shopword p{
+    margin-top: 20px; 
+    color: #969191;  
+}
+
+.listNum{
+    width: 50px;
+    height: 28px;
+    border:0;
+    outline: none;
+}
+.shopUl{
+    width: 120px;
+   margin:0  auto;
+}
+.shopUl ul li{
+    list-style: none;
+    border: 1px #ccc solid;
+}
+.shopli{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.del{
+    color: #f26b0f;
+    text-decoration: underline;
+    display:block;
+    margin-bottom: 10px;
+}
+.total{
+    color: red;
+}
+/*  */
+.otherTr td{
+    height: 100px;
+    border: 0;
+    text-align: left;
+    font-size: 12px;
+}
+.otherLeft{
+    padding-left: 22px;
+}
+.otherLeft a{
+    margin-left: 30px;
+    color: #f26b0f;
+}
+.otherTr .otherCenter{
+    text-align: right;
+}
+.otherTr .otherCenter p{
+    margin-top: -30px;
+    margin-right: 5px;
+}
+.otherRight p{
+    margin-bottom: 8px;
+}
+.trList:hover{
+    background: #fef9f6;
+}
+ 
+/*bootom  */
+.btn{
+    background: #fff;
+    border: 1px #ccc solid;
+    width: 185px;
+    height: 46px;
+    color: #f26b0f;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.btn:hover{
+    background: #f26b0f;
+    color: #fff;
+}
+.listBootom{
+    text-align: right;
+}
+
+
+/* 底部导航 */
+.footer{
+    width: 100%;
+    height: 342px;
+    background: #333333;
+    margin-top: 25px;
+    color: #888888;
+}
+.wp{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+.footerList{
+    height: 240px;
+    width: 900px;
+}
+.footerList ul{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 34px;
+}
+.footerList ul:nth-child(1){
+    margin-left: 0;
+}
+.footerList .listLi{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.listLi:hover{
+    color: #f26b0f;
+}
+.listTit{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footerList .first{
+    margin-left: 50px;
+}
+.footerBottom{
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    border-top: 1px #3f3f3f solid;
+}
+.bottomP{
+    margin-top: 20px;
+}
+.footerBottom p{
+    margin-bottom: 16px;
+}
+
+ 
